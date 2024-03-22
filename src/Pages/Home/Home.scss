@@ -1,0 +1,381 @@
+// home
+
+.home {
+  margin-top: 120px;
+  width: 100%;
+  height: 100%;
+}
+
+.home__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+// first card styles
+
+.hlist__item__main {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+
+  .logo__img {
+    width: 350px;
+    height: 350px;
+    margin: 12px;
+    object-fit: cover;
+    margin-left: 50px;
+    border-radius: 12px 14px 12px 14px;
+  }
+}
+
+.card__main {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  color: #f0f8ff;
+  background-color: #1f1f1f;
+  border-radius: 32px;
+  box-shadow: 1px 6px 25px rgb(100, 101, 102);
+
+  .info__main {
+    margin-left: 200px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    .name__main {
+      font-size: 42px;
+      letter-spacing: 1px;
+
+      :hover {
+        ////
+        color: #61dafb;
+        transition: all ease 4s;
+        background-color: red;
+      }
+    }
+
+    .des__main {
+      width: auto;
+      font-size: 24px;
+      font-family: imb;
+      margin-top: 40px;
+      letter-spacing: 5px;
+    }
+
+    button {
+      padding-block: 0;
+      padding-inline: 225px;
+      height: 40px;
+      border-radius: 15px;
+      background-color: #61dafb;
+      border: 3px solid transparent;
+      // border: none;
+      color: white;
+      font-size: 21px;
+      margin-top: 70px;
+      margin-right: 50px;
+    }
+
+    button:hover {
+      transition: all ease 0.3s;
+      background-color: #1f1f1f;
+      cursor: pointer;
+      color: #61dafb;
+      border: 3px solid #61dafb;
+    }
+
+    button:active {
+      transition: all ease 0.3s;
+      color: #1f1f1f;
+      background-color: #fff;
+      font-size: 20px;
+    }
+  }
+}
+
+.item__wrapper {
+  width: 100%;
+  height: 370px;
+
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  color: #f0f8ff;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  box-shadow: 1px 3px 15px rgb(100, 101, 102);
+
+  img {
+    width: 350px;
+    height: 350px;
+    margin-top: 12px;
+    // border-radius: 0 32px 32px 0;
+    object-fit: cover;
+    margin-left: 5px;
+  }
+
+  span {
+    margin-top: 60px;
+    margin-left: 35px;
+
+    .name {
+      font-size: 30px;
+    }
+
+    .des {
+      font-size: 24px;
+      font-family: imb;
+    }
+
+    .item__icon {
+      margin-top: 85px;
+      margin-left: 270px;
+      font-size: 42px;
+      font-weight: 700;
+
+      :hover {
+        color: #708090;
+      }
+    }
+  }
+}
+
+// other card
+.hlist__item {
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+// span
+.skills {
+  height: auto;
+  margin: 55px 0;
+  padding: 30px 0;
+  display: flex;
+  text-align: center;
+  border-radius: 32px;
+  box-shadow: 1px 6px 25px rgb(100, 101, 102);
+  background-color: #1f1f1f;
+
+  .skills__wrapper {
+    text-decoration: none;
+    color: #f0f8ff;
+
+    .skill__span {
+      display: flex;
+      justify-content: center;
+      gap: 200px;
+      padding-left: 60px;
+      align-items: center;
+      text-align: center;
+
+      h3 {
+        font-size: 32px;
+
+        :hover {
+          font-size: 240px;
+          color: #61dafb;
+        }
+      }
+
+      .des {
+        font-size: 22px;
+        letter-spacing: 2px;
+      }
+    }
+
+    .my__lang {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      padding: 15px 20px;
+      flex-wrap: wrap;
+      gap: 56px;
+      padding-left: 150px;
+      .lang__img {
+        width: auto;
+        height: 90px;
+        margin-left: -20px;
+        // object-fit: cover;
+      }
+    }
+  }
+}
+
+.home__bottom {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 1px 6px 25px rgb(100, 101, 102);
+  background-color: #1f1f1f;
+  margin: 55px 0;
+  padding: 50px 0;
+
+  .exprinse {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    padding-left: 60px;
+    a {
+      text-decoration: none;
+
+      .exp__card {
+        width: 215px;
+        height: 170px;
+        padding-block: 35px;
+        border: 1px solid #61dafb;
+        text-align: center;
+        align-items: center;
+        border-radius: 19px;
+
+        p {
+          color: white;
+          font-size: 22px;
+        }
+      }
+
+      .exp__card:hover {
+        transition: all ease 1s;
+        background-color: #61dafb;
+        p {
+          color: #1f1f1f;
+        }
+      }
+    }
+
+    .nav__about__card {
+      color: white;
+      text-decoration: none;
+      :hover {
+        transition: all ease 1s;
+        background-color: #61dafb;
+        color: #1f1f1f;
+      }
+    }
+  }
+
+  .contact__card {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 60px;
+      height: 100px;
+    }
+    .contact__link {
+      display: flex;
+      height: 100%;
+      align-items: end;
+      justify-content: space-between;
+      position: static;
+      p {
+        font-size: 44.8px;
+        line-height: 1.5;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 30px;
+        letter-spacing: 6px;
+      }
+      :hover {
+        color: #61dafb;
+        transition: all ease 0.3s;
+        font-size: 44px;
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.homecangeanimation {
+  font-size: 27px;
+  color: var(red);
+  font-weight: 500;
+  margin-top: 14px;
+}
+
+.homecangeanimation span {
+  position: relative;
+}
+
+.homecangeanimation span::before {
+  content: "Web Developer";
+  color: var(white);
+  animation: words 20s infinite;
+  /* display: inline-block; */
+}
+
+.homecangeanimation span::after {
+  content: "";
+  background-color: var(#61dafb);
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  border-left: 3px solid var(red);
+  right: -8px;
+  animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes words {
+  0%,
+  20% {
+    content: "a  intern  web  developer  based  in  Andijan";
+  }
+
+  21%,
+  40% {
+    content: "Web Designer";
+  }
+
+  41%,
+  60% {
+    content: "UI / UX Desinger";
+  }
+
+  61%,
+  80% {
+    content: "Frontend Desinger";
+  }
+
+  81%,
+  100% {
+    content: "Software Tester";
+  }
+}
+
+@keyframes typing {
+  10%, 
+    15%, 
+    30%, 
+    35%, 
+    50%, 
+    55%, 
+    70%, //ok?
+    75%, 
+    90%, 
+    95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}

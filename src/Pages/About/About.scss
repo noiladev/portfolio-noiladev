@@ -1,0 +1,131 @@
+.about {
+  width: 100%;
+  height: 100%;
+  margin-top: 120px;
+}
+.first__info {
+  width: 100%;
+  padding: 25px 30px;
+  text-align: center;
+  align-items: center;
+  h3 {
+    font-size: 51px;
+    letter-spacing: 8px;
+    color: #61dafb;
+  }
+  .about__me {
+    text-align: start;
+    h4 {
+      margin-top: 20px;
+      font-size: 37px;
+      margin-bottom: 30px;
+      margin-left: 90px;
+      border-bottom: 2px solid #61dafb;
+      width: 350px;
+    }
+
+    q {
+      font-size: 22px;
+      margin-top: 20px;
+    }
+  }
+}
+.second {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  .plan {
+    padding-block: 55px;
+    padding-inline: 70px;
+    text-align: center;
+    align-items: center;
+    color: #f0f8ff;
+    background-color: #1f1f1f;
+    border-radius: 32px;
+    box-shadow: 1px 6px 25px rgb(100, 101, 102);
+    margin-right: 50px;
+    .plansFor {
+      font-size: 31px;
+      letter-spacing: 5px;
+      margin-bottom: 15px;
+    }
+    div {
+      p {
+        font-size: 23px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+      }
+      span {
+        color: #7c7c7c;
+        font-size: 25px;
+      }
+      h5 {
+        color: #61dafb;
+        font-size: 27px;
+        letter-spacing: 3px;
+      }
+    }
+  }
+  .edu {
+    padding-block: 55px;
+    padding-inline: 70px;
+    text-align: center;
+    align-items: center;
+    color: #f0f8ff;
+    background-color: #1f1f1f;
+    border-radius: 32px;
+    box-shadow: 1px 6px 25px rgb(100, 101, 102);
+    p {
+      font-size: 31px;
+      letter-spacing: 5px;
+      margin-bottom: 15px;
+    }
+    div {
+      p {
+        font-size: 23px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+        color: #7c7c7c;
+      }
+      span {
+        color: white;
+        font-size: 25px;
+        a {
+          color: #61dafb;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.rezume {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  button {
+    padding-inline: 200px;
+    padding-block: 15px;
+    border-radius: 43px;
+    border: none;
+    border: 3px solid #61dafb;
+    background-color: transparent;
+    p {
+      font-size: 32px;
+      text-decoration: none;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  button:hover {
+    background-color: #61dafb;
+    transition: all ease 3s;
+    a {
+      color: #1f1f1f;
+      font-size: 34px;
+    }
+  }
+}

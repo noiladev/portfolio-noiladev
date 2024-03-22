@@ -1,0 +1,141 @@
+.contact {
+  margin-top: 120px;
+  height: 100%;
+  .contact__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .contact__info {
+      padding-block: 25px;
+      padding-inline: 30px;
+      display: block;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+
+      h3 {
+        font-size: 42px;
+        letter-spacing: 5px;
+      }
+
+      div {
+        margin-top: 35px;
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+
+        p {
+          i {
+            font-size: 58px;
+          }
+        }
+
+        span {
+          margin-top: 15px;
+
+          h5 {
+            width: 300px;
+            font-size: 28px;
+            letter-spacing: 3px;
+            color: #bcbcbc;
+          }
+
+          a {
+            width: 300px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            margin-top: 13px;
+            color: white;
+            font-size: 17px;
+            margin-top: 8px;
+          }
+        }
+      }
+
+      .info__span__last {
+        display: block;
+        justify-content: center;
+
+        .last__icon {
+          margin-left: -160px;
+        }
+
+        h5 {
+          color: #bcbcbc;
+          font-size: 28px;
+          margin-left: 85px;
+          margin-top: -60px;
+        }
+
+        span {
+          width: 400px;
+          display: flex;
+          justify-content: space-around;
+          margin-top: 40px;
+        }
+      }
+    }
+
+    .mail {
+      padding-block: 25px;
+      padding-inline: 30px;
+      display: block;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      background-color: #1f1f1f;
+      border-radius: 32px;
+      box-shadow: 1px 6px 25px rgb(100, 101, 102);
+
+      h3 {
+        font-size: 42px;
+        letter-spacing: 5px;
+      }
+
+      form {
+        width: 97%;
+        margin-left: 18px;
+
+        input {
+          width: 100%;
+          padding: 17px 20px;
+          margin-top: 45px;
+          background-color: #282828;
+          border-radius: 14px;
+          color: #bcbcbc;
+          font-size: 20px;
+          border: none;
+        }
+
+        .message {
+          height: 305px;
+          text-align: start;
+          align-items: start;
+        }
+
+        .mail__btn {
+          margin-top: 45px;
+          padding: 17px 200px;
+          background-color: transparent;
+          border: none;
+          border: 2px solid #bcbcbc;
+          border-radius: 26px;
+          font-size: 26px;
+          color: white;
+          transition: all ease 0.3s;
+        }
+
+        .mail__btn:hover {
+          border: 2px solid #61dafb;
+          color: #61dafb;
+        }
+
+        .mail__btn:active {
+          background-color: #61dafb;
+          color: #1f1f1f;
+        }
+      }
+    }
+  }
+}
