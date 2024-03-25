@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/img/logo.jpg";
 import "./Home.scss";
 import rezume from "../../assets/img/rezume.jpg";
+import { ReactTyped } from "react-typed";
 function Home() {
   var navigateContact = useNavigate();
 
@@ -23,11 +24,28 @@ function Home() {
                 <h3 className="name__main">Noila Sotvoldiyeva </h3>
                 {/* <p className='des__main'>Hi,  I'm  a  intern  web  developer  based  in  Andijan</p>  */}
 
-                <p data-aos="fade-up" class="homecangeanimation">
+                {/* <p data-aos="fade-up" className="homecangeanimation">
                   {" "}
                   And I'm <span></span>
-                </p>
+                </p> */}
+                    <div>
+                        <ReactTyped strings={["Here you can find anything"]} typeSpeed={40} />
+                        <br />
 
+                        <ReactTyped
+                          strings={[
+                            "Search for products",
+                            "Search for categories",
+                            "Search for brands",
+                          ]}
+                          typeSpeed={40}
+                          backSpeed={50}
+                          attr="placeholder"
+                          loop
+                        >
+                          <input type="text" />
+                        </ReactTyped>
+                      </div>
                 <button onClick={navContact}>connact me</button>
               </span>
             </li>
