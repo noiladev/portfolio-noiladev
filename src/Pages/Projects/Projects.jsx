@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link,   } from "react-router-dom";
 import "./Projects.scss";
 import adib from "../../assets/img/adib.jpeg";
 import ecoCabins from "../../assets/img/ecocabins.jpeg";

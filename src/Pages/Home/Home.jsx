@@ -2,7 +2,6 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/img/logo.jpg";
 import "./Home.scss";
-import rezume from "../../assets/img/rezume.jpg";
 import { ReactTyped } from "react-typed";
 function Home() {
   var navigateContact = useNavigate();
@@ -22,30 +21,27 @@ function Home() {
               </Link>
               <span className="info__main">
                 <h3 className="name__main">Noila Sotvoldiyeva </h3>
-                {/* <p className='des__main'>Hi,  I'm  a  intern  web  developer  based  in  Andijan</p>  */}
 
-                {/* <p data-aos="fade-up" className="homecangeanimation">
-                  {" "}
-                  And I'm <span></span>
-                </p> */}
-                    <div>
-                        <ReactTyped strings={["Here you can find anything"]} typeSpeed={40} />
-                        <br />
+                <div>
+                  <ReactTyped strings={["And I'm "]} typeSpeed={40} />
+                  <br />
 
-                        <ReactTyped
-                          strings={[
-                            "Search for products",
-                            "Search for categories",
-                            "Search for brands",
-                          ]}
-                          typeSpeed={40}
-                          backSpeed={50}
-                          attr="placeholder"
-                          loop
-                        >
-                          <input type="text" />
-                        </ReactTyped>
-                      </div>
+                  <ReactTyped
+                    strings={[
+                      "an intern web developer based in Andijan",
+                      "UI / UX Desinger",
+                      "Web Designer",
+                      "Software Tester",
+                      "Frontend Desinger"
+                    ]}
+                    typeSpeed={40}
+                    backSpeed={50}
+                    attr="placeholder"
+                    loop
+                  >
+                    <input type="text" />
+                  </ReactTyped>
+                </div>
                 <button onClick={navContact}>connact me</button>
               </span>
             </li>
@@ -122,7 +118,6 @@ function Home() {
             </Link>
           </ul>
           <div className="contact__card">
-            {/* <img className='star__icon' src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/icon2.png" alt="" /> */}
             <Link to="/contact" className="contact__link">
               <p>
                 Let's work{" "}

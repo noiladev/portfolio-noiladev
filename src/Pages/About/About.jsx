@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.scss";
 import rezume from "../../assets/rezume/rezume.pdf";
-import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -40,8 +39,10 @@ function About() {
               <p>2023 08 2 - 2024 03 29</p>
               <span>
                 I learned frontend from{" "}
-                <a target="_blank" href="https://portfolio-com.netlify.app/">Roziqov R</a> and
-                other <a href="">youtube channels</a>
+                <a target="_blank" href="https://portfolio-com.netlify.app/">
+                  Roziqov R
+                </a>{" "}
+                and other <a href="">youtube channels</a>
               </span>
             </div>
           </div>
